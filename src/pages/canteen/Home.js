@@ -36,7 +36,9 @@ export default function CantHome() {
         />
         <div className="Canteen-Navbar">
           <div className="Canteen-logo">
-            <Avatar sx={{ bgcolor: deepPurple[500] }}>BE</Avatar>
+            <Avatar alt="baskEat" src="./BaskEat.png">
+              {" "}
+            </Avatar>
           </div>
           <div className="Canteen-btns">
             <li>
