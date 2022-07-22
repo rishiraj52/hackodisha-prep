@@ -1,9 +1,9 @@
 import React from "react";
 import { Button } from "@mui/material";
 
-import "./heroPage.css";
+import "./admin_page.css";
 
-export default function heroPage() {
+export default function adminPage() {
   return (
     <>
       {/* main container */}
@@ -17,6 +17,7 @@ export default function heroPage() {
               className="Logo"
             />
           </div>
+          <div className="logoName"></div>
           <div className="navbtns">
             <li>
               <Button>LogIn</Button>
@@ -28,24 +29,7 @@ export default function heroPage() {
 
         {/* content of page starts here */}
         <div className="content">
-          <img
-            src={require("./pics/Cover.png")}
-            alt="BgPic"
-            className="BgImg"
-          />
-          <div className="welcome">Welcome to baskEat</div>
-          <div className="mainButtons">
-            <div>
-              <Button variant="contained" style={{ background: "white" }}>
-                Admin Login
-              </Button>
-            </div>
-            <div>
-              <Button variant="contained" style={{ background: "white" }}>
-                Student Login
-              </Button>
-            </div>
-          </div>
+          
         </div>
         {/* content of page ends here */}
       </div>
