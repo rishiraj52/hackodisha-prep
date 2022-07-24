@@ -5,8 +5,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import CantHome from "./pages/canteen/Home";
 // import Hero from "./pages/login-pages/heroPage";
-// import AdminLogin from "./pages/login-pages/admin_login";
-import StudentLogin from "./pages/login-pages/student_login";
+import AdminLogin from "./pages/login-pages/admin_login";
+// import StudentLogin from "./pages/login-pages/student_login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,8 +14,8 @@ root.render(
     <App />
     {/* <Hero /> */}
     {/* <CantHome /> */}
-    {/* <AdminLogin /> */}
-    <StudentLogin />
+    <AdminLogin />
+    {/* <StudentLogin /> */}
   </React.StrictMode>
 );
 

@@ -92,7 +92,16 @@ body {
   width: 1.5rem;
   opacity: 0.5;
 }
+.loginButn {
+  background: hsl(175, 50%, 49%) !important;
+  font-family: "Barlow Semi Condensed", "san-serif" !important;
+  text-transform: capitalize !important;
+  font-size: large !important;
+  border-radius: 4rem !important;
+  padding: 0.2rem 3rem !important;
+}
 .forgotPass {
   font-size: 1rem;
-  font-family: "Barlow Semi Condensed", "sans-serif";
+  color: #857f7f !important;
+  font-family: "Barlow Semi Condensed", "sans-serif" !important;
 }
