@@ -134,7 +134,7 @@ export default function InputAdornments() {
                 </Box>
               </div>
               <div>
-                <Button variant="contained" className="submit">
+                <Button variant="contained" className="loginButn">
                   Login Now
                 </Button>
               </div>
