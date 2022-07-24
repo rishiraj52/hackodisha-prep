@@ -102,5 +102,6 @@ body {
 }
 .forgotPass {
   font-size: 1rem;
+  color: #857f7f !important;
   font-family: "Barlow Semi Condensed", "sans-serif" !important;
 }
